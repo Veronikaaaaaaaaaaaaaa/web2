@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    max-width: 1560px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*  шапка */
+.header {
+    background-color: #FF69B4;
+    color: #ffffff;
+    padding: 20px 100;
+}
+
+.header-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* лого */
+.logo {
+    display: flex;
+    width:100px; height: 100px;
+    border-radius: 50%;
+    background: url(картинка.jpeg); 
+    background-size:  100px;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    margin: 0;
+}
+
+/* git */
+.site-title {
+    margin: 0;
+}
+
+.site-link a{
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.site-link:hover{
+    color: darkgrey;
+}
+
+/* ссылки */
+.main-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.main-menu li {
+    margin-left: 20px;
+}
+
+.main-menu a {
+    font-size: 20px;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.main-menu a:hover{
+    color: darkgrey;
+}
+
+/* таблица */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: solid 3px #f6b0d3;
+}
+
+.data-table th, .data-table td {
+    padding: 10px;
+    text-align: left;
+    border: solid 1px #f6b0d3;
+}
+
+.data-table th {
+    background-color: #f6b0d3;
+    color: #fff;
+}
+
+.data-table tr:nth-child(even) {
+    background-color: #f6d6e6;
+}
+
+/* подвал */
+.footer {
+    background-color: #FF69B4;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+}
